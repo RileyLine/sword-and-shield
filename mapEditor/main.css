@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	background-color: #dddddd;
+
+	position: relative;
+}
+
+.selectedCol {
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	border: 2px solid black;
+	top: 70%;
+	left: 5%;
+}
+
+#submit {
+	position: absolute;
+	width: 75px;
+	height: 37px;
+	top: 70%;
+	left: 5%;
+	margin-top: 100px;
+}
+
+.mapHolder {
+	display: flex;
+	flex-wrap: wrap;
+
+	width: 800px;
+	height: 525px;
+
+	position: absolute;
+	top: 10%;
+	left: calc(50% - 400px);
+}
+
+#mapOutput {
+	width: 800px;
+	position: absolute;
+	bottom: 15%;
+	left: calc(50% - 400px);
+}
+
+.block {
+	width: 25px;
+	height: 25px;
+	border: 1px solid #909090;
+}

@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-color: rgb(92, 16, 16);
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+}
+
+main {
+	width: 100%;
+}
+
+.mainSection {
+	width: 150px;
+	height: 150px;
+	border-radius: 5px;
+	/* border: 1px solid #333; */
+	color: white;
+	margin: 50px auto;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 0 10px;
+}
+
+.mainSection i {
+	font-size: 36pt;
+	margin-bottom: 5px;
+}
+
+.gameSection {
+	background-color: rgb(255, 165, 0);
+	box-shadow: 5px 5px 0px 0px hsl(39, 100%, 20%);
+	
+}
+
+.mapSection {
+	background-color: dodgerblue;
+	box-shadow: 5px 5px 0px 0px hsl(210, 100%, 26%);
+}
+
+.mainSection:active {
+	transform: translate(5px, 5px);
+	box-shadow: inset 0 0 5px 5px rgba(0, 0, 0, 0.35);
+}
